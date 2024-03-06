@@ -366,7 +366,7 @@ a:hover img {
 .slide {
   height: 100%;
   border-radius: 15px;
-  margin: 0 5px;
+  margin: 0 2px;
   cursor: pointer;
   flex: 1;
   background-size: cover;
@@ -384,7 +384,7 @@ a:hover img {
   position: absolute;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50px);
+  transform: translateX(-50%);
   z-index: 1;
   text-transform: uppercase;
   margin: 0;
@@ -394,23 +394,23 @@ a:hover img {
   flex-direction: column-reverse;
   text-align: center;
   align-items: center;
-  left: 75px;
 }
 
 .slide.active {
-  flex: 14;
+  flex: 30;
 }
 
 .slide.active h5 {
   display: block;
   color: #020f24;
+  
 }
 
 .slide h5 span {
   display: block;
   transform: rotate(270deg);
   color: #000000;
-  font-size: 34px;
+  font-size: 28px;
   border-radius: 20px;
 }
 
@@ -916,8 +916,3 @@ ul.list_custom_w li:after {
 
 
 /*# sourceMappingURL=style.css.map */
-
-
-
-
-
