@@ -398,7 +398,7 @@ a:hover img {
 }
 
 .slide.active {
-  flex: 10;
+  flex: 14;
 }
 
 .slide.active h5 {
