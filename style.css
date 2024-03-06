@@ -403,7 +403,8 @@ a:hover img {
 .slide.active h5 {
   display: block;
   color: #020f24;
-  
+  right: 0;
+  left: initial;
 }
 
 .slide h5 span {
