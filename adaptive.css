@@ -71,10 +71,6 @@
         flex-direction: column-reverse;
     }
 
-    .slide h5 {
-        left: 70px;
-    }
-
 }
 
 @media (max-width: 1024px) {
@@ -105,12 +101,8 @@
         transform: translateX(-70px);
     }
 
-    .slide h5 {
-        left: 65px;
-    }
-
     .slide h5 span {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .prod_link {
